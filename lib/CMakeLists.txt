@@ -1,8 +1,11 @@
-add_subdirectory(IncFluid)
-add_subdirectory(IncFlow)
-add_subdirectory(fields)
-add_subdirectory(plainfields)
-add_subdirectory(four)
-add_subdirectory(scft)
-add_subdirectory(basis_basicfn)
+
+#SUBDIRS(basis_basicfn four scft fields IncFlow IncFluid)
+
+SUBDIRS(IncFluid IncFlow fields plainfields four scft basis_basicfn)
+
+#SET(CMAKE_BUILD_TYPE distribution)
+#SET(CMAKE_CXX_FLAGS_DISTRIBUTION "-O3")
+#SET(CMAKE_C_FLAGS_DISTRIBUTION "-O3")
+#SET(CMAKE_CXX_FLAGS "-Wall -Werror")
+
 
