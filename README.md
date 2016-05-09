@@ -1,6 +1,4 @@
 # tarang
-Spectral numerical methods for the solution of the Navier-Stokes equations and the simulation of turbulent flows.
-
 TARANG is an object-oriented pseudospectral code for the solution of the Navier-Stokes equations and the simulation of turbulent flows, magnetohydrodynamics (MHD), convection, passive scalars, etc. Various basis functions (Chebyshev, Fourier etc) can be used for the computation.
 
 TARANG uses C++ to deliver a reusable, object-oriented library, which can be used as a basis for the development of solvers
